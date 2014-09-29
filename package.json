@@ -3,6 +3,7 @@
   "description": "Exports a SQL Query from a SQLExpress database to a xls file.",
   "version": "0.0.1",
   "bin": "./index.js",
+  "repository": "https://github.com/binderplus/query2xls",
   "dependencies": {
     "async": "latest",
     "yargs": "latest",
