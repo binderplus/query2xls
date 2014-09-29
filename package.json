@@ -1,0 +1,12 @@
+{
+  "name": "query2xls",
+  "description": "Exports a SQL Query from a SQLExpress database to a xls file.",
+  "version": "0.0.1",
+  "bin": "./index.js",
+  "dependencies": {
+    "async": "latest",
+    "yargs": "latest",
+    "tedious": "latest",
+    "excel-export": "latest"
+  }
+}
