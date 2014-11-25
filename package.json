@@ -1,13 +1,13 @@
 {
-  "name": "query2xls",
+  "name": "sql2xls",
   "description": "Exports a SQL Query from a SQLExpress database to a xls file.",
-  "version": "0.0.1",
-  "bin": "./index.js",
+  "version": "0.0.2",
+  "bin": "./app.js",
   "repository": "https://github.com/binderplus/query2xls",
   "dependencies": {
-    "async": "latest",
-    "yargs": "latest",
+    "lodash.defaults": "^2.4.1",
+    "node-xlsx": "latest",
     "tedious": "latest",
-    "excel-export": "latest"
+    "yargs": "latest"
   }
 }
